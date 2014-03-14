@@ -18,6 +18,6 @@ class Cell
   end
 
   def set_current_state(new_state)
-    @future_state = new_state
+    @state = new_state
   end
 end

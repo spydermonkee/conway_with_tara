@@ -10,7 +10,7 @@ def start_menu
   x_dim = gets.chomp.to_i
   puts "Enter your y dimension:"
   y_dim = gets.chomp.to_i
-  @current_grid = Grid.new(x_dim, y_dim)
+  @current_grid = Grid.create(x_dim, y_dim)
   main_menu
 end
 
